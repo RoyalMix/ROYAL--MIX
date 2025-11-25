@@ -21,3 +21,5 @@ This repository contains the core architecture, API structure, security layers, 
 
 ## 📦 Installation
 1. Clone the repo:
+# Royal Mix Docs
+This repo stores legal templates, licensing checklists, launch plan and branding PDFs.
