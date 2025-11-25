@@ -15,3 +15,10 @@ royalmix-frontend/
 └─ .github/
    └─ workflows/
       └─ ci.yml
+node_modules/
+.expo/
+.env
+dist/
+build/
+.DS_Store
+.vscode/
