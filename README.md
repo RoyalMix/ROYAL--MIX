@@ -1,3 +1,23 @@
+# Royal Mix
+
+Royal Mix is a unified platform combining:
+- Royal Mix Food
+- Royal Health
+- Supplier System
+- Delivery System
+- Publicity & Communication Network
+
+This repository contains:
+- Full app architecture
+- Backend API structure
+- Frontend apps (Food, Health, Delivery)
+- Business & Supplier policies
+- Testnet configuration
+- Integration notes for future Supabase setup
+
+---
+
+## 📁 Project Structure
 # ROYAL--MIX
 Royal Mix – Secure, fast, and scalable AI-powered platform built with modern tools (GitHub, Supabase, API integrations, modular architecture).
 # Royal Mix
