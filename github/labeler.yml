@@ -1,0 +1,15 @@
+'area:backend':
+  - 'backend'
+  - 'api'
+'area:frontend':
+  - 'frontend'
+  - 'expo'
+'area:docs':
+  - 'docs'
+  - 'documentation'
+'type:bug':
+  - 'bug'
+  - 'error'
+'type:enhancement':
+  - 'feature'
+  - 'enhancement'
