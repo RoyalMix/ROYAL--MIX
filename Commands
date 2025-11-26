@@ -1,0 +1,21 @@
+REPO="OWNER/REPO"
+
+gh issue create --repo $REPO --title "Init: Standardize repo folder structure" --body "Normalize root structure to /apps /backend /configs /docs /ui /scripts. Move existing files into correct folders. See architecture spec in docs/BRD_Technical_Specs.md" --label "type:task,area:docs,priority:high"
+
+gh issue create --repo $REPO --title "Create testnet_config.json and .env.example" --body "Add testnet_config.json to /configs and .env.example in root with placeholders for SUPABASE_URL, SUPABASE_SERVICE_KEY, GH_TOKEN, etc." --label "type:task,area:backend,priority:high"
+
+gh issue create --repo $REPO --title "Backend: API skeleton (routes + controllers)" --body "Create /backend/api/routes and /backend/api/controllers with placeholder endpoints: /v1/auth, /v1/products, /v1/orders, /v1/suppliers. Add simple express/fastify server and health endpoint." --label "type:task,area:backend,priority:high"
+
+gh issue create --repo $REPO --title "Frontend: Expo/React Native skeleton app" --body "Create /apps/food-app skeleton with Expo init, Home, Menu, Order screens, i18n skeleton." --label "type:task,area:frontend,priority:high"
+
+gh issue create --repo $REPO --title "Create CI workflow (frontend & backend)" --body "Add GitHub Actions to run lint/test on push and PR. Add node.js workflow examples." --label "type:task,area:backend,priority:medium"
+
+gh issue create --repo $REPO --title "Docs: Supplier onboarding & publicity (1-month rule)" --body "Write docs in /docs/suppliers describing onboarding steps, verification checklist and 30-day publicity process." --label "type:task,area:docs,priority:medium"
+
+gh issue create --repo $REPO --title "Security: security.md and checklist" --body "Add /configs/security.json and docs/security.md describing API rate limits, key handling, admin 2FA, data encryption, backups." --label "type:task,area:security,priority:high"
+
+gh issue create --repo $REPO --title "Seed: mock data generator (scripts/seed_database.js)" --body "Create script to generate mock users, suppliers, products, and orders for Testnet." --label "type:task,area:backend,priority:medium"
+
+gh issue create --repo $REPO --title "Admin: Create Admin skeleton UI" --body "Add minimal admin-app with dashboard, suppliers page, orders page." --label "type:task,area:frontend,priority:medium"
+
+gh issue create --repo $REPO --title "Integration: Prepare Supabase migration SQL (deferred in Testnet)" --body "Add SQL migration file under /backend/database/migrations/001_init.sql matching agreed schema. Mark as deferred until Mainnet." --label "type:task,area:backend,priority:low"
