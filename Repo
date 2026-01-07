@@ -1,0 +1,9 @@
+/backend/security/cors.js
+/backend/security/rateLimit.js
+/backend/security/helmet.js
+/backend/security/sanitize.js
+/backend/security/validateSignature.js
+/backend/security/errorHandler.js
+/backend/security/mongo.js
+/reverse-proxy/nginx.conf
+/frontend/public/index.html  (add CSP meta)
